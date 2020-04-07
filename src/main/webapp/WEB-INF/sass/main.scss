@@ -1,0 +1,47 @@
+$mat-color: #f3dfc1;
+$note-color: #ddbea8;
+$desk-color: #704f33;
+
+body {
+	background-color: $desk-color;
+	color: $note-color;
+}
+
+.main_container {
+	background-color: #F1BF98;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: $desk-color;
+	height: 100%;
+	margin: 0px;
+}
+
+#mat {
+	background-color: $mat-color;
+	width: 95%;
+	min-height: 95%;
+	display: inline-block;
+	border-radius: 120px;
+	position: absolute;
+	top: 2.5%;
+	left: 2.5%;
+}
+
+.note {
+	background-color: $note-color;
+	border-radius: 1200px;
+	max-width: 40em;
+	min-height: 10em;
+	margin-bottom: 5em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.note:first-of-type {
+	margin-top: 5em;
+}
