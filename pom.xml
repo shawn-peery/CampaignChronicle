@@ -127,7 +127,7 @@
 		        </executions>
 		        <configuration>
 		           <inputPath>${basedir}/src/main/webapp/WEB-INF/sass/</inputPath>
-		           <outputPath>${basedir}/src/main/resources/css/</outputPath>
+		           <outputPath>${basedir}/src/main/resources/static/css/</outputPath>
 		           <includePath>${basedir}/src/main/webapp/WEB-INF/sass/plugins/</includePath>
 		        </configuration>
 		    </plugin>
