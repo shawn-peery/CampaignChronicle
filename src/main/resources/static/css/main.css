@@ -1,6 +1,7 @@
 body {
   background-color: #704f33;
-  color: #ddbea8; }
+  height: 100%;
+  margin: 0px; }
 
 .main_container {
   background-color: #F1BF98; }
@@ -8,12 +9,7 @@ body {
 html {
   height: 100%; }
 
-body {
-  background-color: #704f33;
-  height: 100%;
-  margin: 0px; }
-
-#mat {
+.mat {
   background-color: #f3dfc1;
   width: 95%;
   min-height: 95%;

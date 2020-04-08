@@ -4,7 +4,8 @@ $desk-color: #704f33;
 
 body {
 	background-color: $desk-color;
-	color: $note-color;
+	height: 100%;
+	margin: 0px;
 }
 
 .main_container {
@@ -15,13 +16,7 @@ html {
 	height: 100%;
 }
 
-body {
-	background-color: $desk-color;
-	height: 100%;
-	margin: 0px;
-}
-
-#mat {
+.mat {
 	background-color: $mat-color;
 	width: 95%;
 	min-height: 95%;
